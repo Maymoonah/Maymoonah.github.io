@@ -22,7 +22,25 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.jumbotron {
+  text-align: center;
+  margin-top: 10%;
+  background: transparent;
+  height: 60%;
 }
+
+.main {
+  /*background-image: url("images/maxresdefault.jpg");*/
+}
+
+.btn {
+  background-color: #1a5ecc;
+  font-family: 'Courier New';
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.display-4 {
+  text-shadow: 1px 1px 2px #1a5ecc;
+}
+
+
