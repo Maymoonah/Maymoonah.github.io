@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import Projects from './projects.js';
+import MemoryGame from './memoryGame.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="main">
+        <Route exact path="/" render={() => (
+          <div className="jumbotron">
+            <h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
+            <hr className="my-4" />
+            <p className="lead">
+                <Link to="/projects" className="btn btn-primary btn-lg" href="https//:www.google.com" role="button">Check Out My Projects!</Link>
+            </p>
+          </div>
+        )} />
+        <Route exact path="/projects" component={Projects} />
       </div>
+      
     );
   }
 }
