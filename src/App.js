@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import Projects from './projects.js';
-import MemoryGame from './memoryGame.js';
+import Projects from './components/projects.js';
 
 class App extends Component {
   render() {
