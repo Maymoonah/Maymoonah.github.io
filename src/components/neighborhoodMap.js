@@ -5,9 +5,10 @@ class NeighborhoodMap extends Component {
 	render() {
 		return (
 			<div>
-				<Link to='/projects/neighborhoodMap'>
-					
+				<Link to='/projects'>
+					<h1 className="title">Projects</h1>
 				</Link>
+				NeighborhoodMap
 			</div>
 		);
 	}
