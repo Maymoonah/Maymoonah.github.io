@@ -6,6 +6,9 @@ class Projects extends Component {
 		return (
 			<div className="container">
 				<h1 className="title">Projects</h1>
+				<Link to='/'>
+					<h2>Home</h2>
+				</Link>
 				<div className="projects">
 					<div className="row">
 						<div className="col-md-3 project">
