@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import MemoryGame from './memoryGame';
-import ArcadeGame from './arcadeGame';
-import PixelArt from './pixelArt';
-import NeighborhoodMap from './neighborhoodMap';
 import { Link } from 'react-router-dom';
 
 class Projects extends Component {
