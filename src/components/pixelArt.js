@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class PixelArt extends Component {
 	render() {
 		return (
 			<div>
-				<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Pixel Art"/>
-				<p><h4>Pixel Art</h4></p>
+				<Link to='/projects/pixelArt'>
+					
+				</Link>
 			</div>
 		);
 	}
