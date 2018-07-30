@@ -26,8 +26,8 @@
 
 .main {
   /*background-image: url("images/maxresdefault.jpg");*/
-  background: linear-gradient(to bottom right, #13105b, #000000);
-  margin-bottom: 0px;
+  /*background: linear-gradient(to bottom right, #13105b, #000000);
+  margin-bottom: 0px;*/
 }
 
 .btn {
@@ -40,10 +40,6 @@
   text-shadow: 1px 1px 2px #1a5ecc;
 }
 
-.projects {
-  margin-top: 10%;
-}
-
 .project {
   background-color: #fff;
   margin: 20px;
@@ -52,11 +48,24 @@
 }
 
 .title {
-  text-shadow: 4px 4px #000;
+  text-shadow: 4px 4px #fefefe;
   text-align: center;
   padding: 20px;
   text-transform: uppercase;
-  color: #fff;
+  /*color: #fff;*/
+}
+
+.description {
+  /*color: #fff;*/
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  padding: 20px;
+}
+
+.navbar {
+  align-content: center;
 }
 
 html {
@@ -68,6 +77,9 @@ img {
   max-height: 100%;
   padding: 10px;
   margin-top: 7px;
+  border-radius: 4px;
+  border: 2px solid #000;
+
 }
 
 h4 {
