@@ -4,7 +4,8 @@ class PixelArt extends Component {
 	render() {
 		return (
 			<div>
-				PixelArt
+				<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Pixel Art"/>
+				<p><h4>Pixel Art</h4></p>
 			</div>
 		);
 	}

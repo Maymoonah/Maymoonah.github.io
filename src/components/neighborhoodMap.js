@@ -4,7 +4,8 @@ class NeighborhoodMap extends Component {
 	render() {
 		return (
 			<div>
-				NeighborhoodMap
+				<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map"/>
+				<p><h4>Neighborhood Map</h4></p>
 			</div>
 		);
 	}

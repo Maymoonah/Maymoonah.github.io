@@ -8,6 +8,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<div className="container">
+				<h1>Projects</h1>
 				<div className="projects">
 					<div className="row">
 						<div className="col-md-3 project">
