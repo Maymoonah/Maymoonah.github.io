@@ -9,10 +9,10 @@ class ArcadeGame extends Component {
 					<h1 className="title">Projects</h1>
 				</Link>
 				<div className="row">
-					<div className="col-md-6">
-						<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game" width="200px" height="200px"/>
+					<div className="col-md-4">
+						<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game" width="100%" height="100%"/>
 					</div>
-					<div className="col-md-6">
+					<div className="col-md-8">
 						<p>
 							- Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.<br/>
 							- Implemented Player, enemy, and other entities using Object-Oriented JavaScript.<br/>
