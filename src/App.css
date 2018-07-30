@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -30,7 +25,7 @@
 }
 
 .main {
-  /*background-image: url("images/maxresdefault.jpg");*/
+  background-image: url("images/maxresdefault.jpg");
 }
 
 .btn {
@@ -43,4 +38,27 @@
   text-shadow: 1px 1px 2px #1a5ecc;
 }
 
+.projects {
+  margin-top: 10%;
+}
+
+.project {
+  background-color: #e593ed;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+p h4 {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
 
