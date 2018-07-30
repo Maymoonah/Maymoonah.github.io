@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class NeighborhoodMap extends Component {
 	render() {
 		return (
 			<div>
-				<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map"/>
-				<p><h4>Neighborhood Map</h4></p>
+				<Link to='/projects/neighborhoodMap'>
+					
+				</Link>
 			</div>
 		);
 	}
