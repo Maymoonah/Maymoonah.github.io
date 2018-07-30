@@ -5,9 +5,10 @@ class ArcadeGame extends Component {
 	render() {
 		return (
 			<div>
-				<Link to='/projects/arcadeGame'>
-					
+				<Link to='/projects'>
+					<h1 className="title">Projects</h1>
 				</Link>
+				ArcadeGame
 			</div>			
 		);
 	}
