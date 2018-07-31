@@ -18,9 +18,9 @@ class MemoryGame extends Component {
 							- A player can flip no more than two cards at a time until all cards are matched.
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Memory-Game/'>
+						<a href='https://maymoonah.github.io/Memory-Game/'>
 							<p>Go To Memory Game!</p>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>

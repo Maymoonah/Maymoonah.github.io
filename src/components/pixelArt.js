@@ -18,9 +18,9 @@ class PixelArt extends Component {
 							- I created the application using HTML5, CSS3, and JavaScript.
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Memory-Game/'>
+						<a href='https://maymoonah.github.io/Pixel-Art-Maker/'>
 							<p>Go To Pixel Art!</p>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>

@@ -18,9 +18,9 @@ class NeighborhoodMap extends Component {
 							- The user can read additional information and see a picture of the location.
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Memory-Game/'>
+						<a href='https://maymoonah.github.io/Neighborhood-Map/'>
 							<p>Go To Neighborhood Map!</p>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>

@@ -18,9 +18,9 @@ class ArcadeGame extends Component {
 							- Player and multiple enemies which can move around have been instantiated.
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Memory-Game/'>
+						<a href='https://maymoonah.github.io/Arcade-Game/'>
 							<p>Go To Arcade Game!</p>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>			
