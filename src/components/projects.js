@@ -9,6 +9,11 @@ class Projects extends Component {
 				<Link to='/'>
 					<h2>Home</h2>
 				</Link>
+				<div className="row">
+					<div className="col-md-12">
+						<hr />
+					</div>
+				</div>
 				<div className="projects">
 					<div className="row">
 						<div className="col-md-3 project">
