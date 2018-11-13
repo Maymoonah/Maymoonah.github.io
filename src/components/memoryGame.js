@@ -9,7 +9,7 @@ class MemoryGame extends Component {
 				<Navbar />		
 				<div className="row">
 					<div className="col-md-4">
-						<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Memory Game" width="100%" height="100%"/>
+						<img src="~" alt="Memory Game" width="100%" height="100%"/>
 					</div>
 					<div className="col-md-8">
 						<p className="description">
