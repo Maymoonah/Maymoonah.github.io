@@ -94,20 +94,18 @@
   color: #000;
 }
 
-.nav-item {
-  float: left;
-}
-
 .navigation {
   background-color: #082d68;
 }
 
 .navigation .nav-link {
   color: #fff;
+
 }
 
 .navigation .navbar-brand {
   color: #fff;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 h4 {
