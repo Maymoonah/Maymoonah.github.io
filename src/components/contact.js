@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './navbar';
 
-class contact extends Component {
+class Contact extends Component {
 	render() {
 		return (
-			<div>
-				<Navbar />		
-				
+			<div>		
+				Contact
 			</div>
 		);
 	}
 }
 
-export default contact;
+export default Contact;
