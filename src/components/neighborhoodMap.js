@@ -6,7 +6,6 @@ class NeighborhoodMap extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar />
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map" width="100%" height="100%"/>
