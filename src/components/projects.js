@@ -6,7 +6,6 @@ class Projects extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar />
 				<div className="container">
 					<div className="projects">
 						<div className="row">
