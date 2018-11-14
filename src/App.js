@@ -15,14 +15,13 @@ class App extends Component {
       <div className="main">
         <Navbar />
         <Route exact path="/" render={() => (
-          // <div className="jumbotron">
-          //   <h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
-          //   <hr className="my-4" />
-          //   <p className="lead">
-          //       <Link to="/projects" className="btn btn-primary btn-lg" role="button">Check Out My Projects!</Link>
-          //   </p>
-          // </div>
-          <img src="May.JPG" alt="May"/>
+          <div className="jumbotron">
+            <h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
+            <hr className="my-4" />
+            <p className="lead">
+                <Link to="/projects" className="btn btn-primary btn-lg" role="button">Check Out My Projects!</Link>
+            </p>
+          </div>
         )} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/projects/memoryGame" component={MemoryGame} />
