@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './navbar';
 
-class aboutMe extends Component {
+class AboutMe extends Component {
 	render() {
 		return (
-			<div>
-				<Navbar />		
-				
+			<div>	
+				About Me
 			</div>
 		);
 	}
 }
 
-export default aboutMe;
+export default AboutMe;
