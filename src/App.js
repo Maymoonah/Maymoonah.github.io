@@ -7,6 +7,9 @@ import MemoryGame from './components/memoryGame';
 import ArcadeGame from './components/arcadeGame';
 import NeighborhoodMap from './components/neighborhoodMap';
 import PixelArt from './components/pixelArt';
+import AboutMe from './components/aboutMe';
+import Resume from './components/resume';
+import Contact from './components/contact';
 import Navbar from './components/navbar';
 
 class App extends Component {
@@ -23,11 +26,14 @@ class App extends Component {
             </p>
           </div>
         )} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/projects/memoryGame" component={MemoryGame} />
-        <Route exact path="/projects/arcadeGame" component={ArcadeGame} />
-        <Route exact path="/projects/neighborhoodMap" component={NeighborhoodMap} />
-        <Route exact path="/projects/pixelArt" component={PixelArt} />
+        <Route path="/aboutme" component={AboutMe} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/projects/memorygame" component={MemoryGame} />
+        <Route path="/projects/arcadegame" component={ArcadeGame} />
+        <Route path="/projects/neighborhoodmap" component={NeighborhoodMap} />
+        <Route path="/projects/pixelart" component={PixelArt} />
       </div>
       
     );
