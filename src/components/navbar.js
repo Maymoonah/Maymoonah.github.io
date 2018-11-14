@@ -15,16 +15,16 @@ class Navbar extends Component {
 							<Link className="nav-link" to='/'>Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to='/'>About Me</Link>
+							<Link className="nav-link" to='/aboutme'>About Me</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to='/'>Projects</Link>
+							<Link className="nav-link" to='/projects'>Projects</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to='/'>Resume</Link>
+							<Link className="nav-link" to='/resume'>Resume</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to='/'>Contact</Link>
+							<Link className="nav-link" to='/contact'>Contact</Link>
 						</li>
 					</ul>
 				</div>
