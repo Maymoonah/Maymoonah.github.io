@@ -11,21 +11,15 @@ import AboutMe from './components/aboutMe';
 import Resume from './components/resume';
 import Contact from './components/contact';
 import Navbar from './components/navbar';
+import Home from './components/home';
 
 class App extends Component {
   render() {
     return (
       <div className="main">
         <Navbar />
-        <Route exact path="/" render={() => (
-          <div className="jumbotron">
-            <h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
-            <hr className="my-4" />
-            <p className="lead">
-                <Link to="/projects" className="btn btn-primary btn-lg" role="button">Check It Out !</Link>
-            </p>
-          </div>
-        )} />
+        
+        <Route exact path="/" component={Home} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
