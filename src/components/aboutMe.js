@@ -5,7 +5,8 @@ class AboutMe extends Component {
 	render() {
 		return (
 			<div>	
-				About Me
+				<h1>About Me</h1>
+				<img src="../images/May.JPG" alt="Maymoonah"/>
 			</div>
 		);
 	}
