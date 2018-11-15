@@ -17,27 +17,25 @@
   font-size: large;
 }
 
-.jumbotron {
+.main .jumbotron {
   text-align: center;
   margin-top: 10%;
-  background: transparent;
   height: 60%;
-}
-
-.main {
-  /*background-image: url("images/maxresdefault.jpg");*/
-  /*background: linear-gradient(to bottom right, #13105b, #000000);
-  margin-bottom: 0px;*/
+  background: rgba(134, 99, 216, 0.7);
 }
 
 .btn {
-  background-color: #1a5ecc;
-  font-family: 'Courier New';
+  font-family: 'Archivo Narrow', sans-serif;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-style: italic;
 }
 
-.display-4 {
-  text-shadow: 1px 1px 2px #1a5ecc;
+.main .display-4 {
+  text-shadow: 4px 4px 6px #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 .project {
@@ -81,7 +79,7 @@
 }
 
 .container hr {
-  height: 1px;
+  height: 2px;
   background-color: #133f84;
   box-shadow: 1px 1px 2px #0a3e91;
 }
@@ -116,4 +114,8 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-image: url("images/code.JPG");
+  background-size: cover;
+}
 
