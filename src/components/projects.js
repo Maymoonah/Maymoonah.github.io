@@ -6,6 +6,11 @@ class Projects extends Component {
 		return (
 			<div>
 				<div className="container">
+					<div className="row">
+						<div className="col-md-12">
+							<h1 className="title">Projects</h1>
+						</div>
+					</div>
 					<div className="projects">
 						<div className="row">
 							<div className="col-md-3 project">
