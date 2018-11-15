@@ -45,14 +45,6 @@
   border-radius: 5px;
 }
 
-.title {
-  text-shadow: 4px 4px #fefefe;
-  text-align: center;
-  padding: 20px;
-  text-transform: uppercase;
-  /*color: #fff;*/
-}
-
 .description {
   /*color: #fff;*/
   margin-top: 20px;
@@ -123,4 +115,12 @@ html, body {
   background-size: cover;
 }
 
+.description {
+  font-size: 20px;
+  font-family: 'aria';
+}
 
+.about .title, .container .title, .contact .title {
+  margin-top: 20px;
+  text-align: left;
+}
