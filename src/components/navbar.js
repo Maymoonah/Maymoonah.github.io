@@ -6,11 +6,11 @@ class Navbar extends Component {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark navigation">
 				<Link className="navbar-brand" to='/'>Maymoonah Mohammed</Link>
-				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul className="navbar-nav">
+				<div className="collapse navbar-collapse">
+					<ul className="navbar-nav ml-auto">
 						<li className="nav-item">
 							<Link className="nav-link" to='/'>Home</Link>
 						</li>
