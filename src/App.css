@@ -78,10 +78,12 @@
   border: 1px solid #000;
 }
 
-.container hr {
-  height: 2px;
-  background-color: #133f84;
-  box-shadow: 1px 1px 2px #0a3e91;
+.main hr {
+  height: 1px;
+  box-shadow: 1px 1px 2px #400463;
+  border: none;
+  color: #878787;
+  width: 60%;
 }
 
 .container h2 {
