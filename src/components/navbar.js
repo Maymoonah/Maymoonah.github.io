@@ -5,7 +5,7 @@ class Navbar extends Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark navigation">
-				<Link className="navbar-brand" to='/'>Maymoonah Mohammed</Link>
+				<Link className="navbar-brand" to='/'><img src="../images/logo.png" id="logo" alt="logo"/>Maymoonah Mohammed</Link>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
 					<span className="navbar-toggler-icon"></span>
 				</button>
@@ -18,7 +18,7 @@ class Navbar extends Component {
 							<Link className="nav-link" to='/aboutme'>About Me</Link>
 						</li>
 						<li className="nav-item dropdown">
-					        <Link className="nav-link dropdown-toggle" to='/projects' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        <Link className="nav-link dropdown-toggle" to='' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					          Projects
 					        </Link>
 					        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
