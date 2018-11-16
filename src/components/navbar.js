@@ -17,9 +17,20 @@ class Navbar extends Component {
 						<li className="nav-item">
 							<Link className="nav-link" to='/aboutme'>About Me</Link>
 						</li>
-						<li className="nav-item">
-							<Link className="nav-link" to='/projects'>Projects</Link>
-						</li>
+						<li class="nav-item dropdown">
+					        <Link class="nav-link dropdown-toggle" to='#' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Projects
+					        </Link>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <Link class="dropdown-item" to='/memorygame'>Memory Game</Link>
+					          <div class="dropdown-divider"></div>
+					          <Link class="dropdown-item" to='arcadegame'>Arcade Game</Link>
+					          <div class="dropdown-divider"></div>
+					          <Link class="dropdown-item" to='pixelart'>Pixel Art</Link>
+					          <div class="dropdown-divider"></div>
+					          <Link class="dropdown-item" to='neighborhoodmap'>Neighborhood map</Link>
+					        </div>
+					     </li>
 						<li className="nav-item">
 							<Link className="nav-link" to='/resume'>Resume</Link>
 						</li>
