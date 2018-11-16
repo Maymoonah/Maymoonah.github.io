@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from './navbar';
 
 class Resume extends Component {
 	render() {
 		return (
-			<div className="resume container">		
-				<div className="row">
-					<div className="col-md-12">
-						<h1 className="title">Resume</h1>
+			<div>
+				<Navbar />
+				<div className="resume container">	
+					<div className="row">
+						<div className="col-md-12">
+							<h1 className="title">Resume</h1>
+						</div>
 					</div>
 				</div>
 			</div>
