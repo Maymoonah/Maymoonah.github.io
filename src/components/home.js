@@ -9,7 +9,7 @@ class Home extends Component {
 					<h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
 					<hr className="my-4" />
 					<p className="lead">
-					    <Link to="/projects" className="btn btn-primary btn-lg" role="button">Check It Out !</Link>
+					    <Link to="/aboutme" className="btn btn-primary btn-lg" role="button">Check It Out !</Link>
 					</p>
 				</div>				
 			</div>
