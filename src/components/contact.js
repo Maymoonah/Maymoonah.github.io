@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from './navbar';
 
 class Contact extends Component {
 	render() {
 		return (
-			<div className="contact container">		
-				<div className="row">
-					<div className="col-md-12">
-						<h1 className="title">Contact</h1>
+			<div>
+				<Navbar />
+				<div className="contact container">		
+					<div className="row">
+						<div className="col-md-12">
+							<h1 className="title">Contact</h1>
+						</div>
 					</div>
 				</div>
 			</div>
