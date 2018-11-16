@@ -18,7 +18,7 @@ class Navbar extends Component {
 							<Link className="nav-link" to='/aboutme'>About Me</Link>
 						</li>
 						<li className="nav-item dropdown">
-					        <Link className="nav-link dropdown-toggle" to='' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        <Link className="nav-link dropdown-toggle" to='/projects' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					          Projects
 					        </Link>
 					        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
