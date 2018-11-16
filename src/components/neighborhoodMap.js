@@ -6,6 +6,7 @@ class NeighborhoodMap extends Component {
 	render() {
 		return (
 			<div>
+				<Navbar />
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map" width="100%" height="100%"/>
@@ -17,9 +18,9 @@ class NeighborhoodMap extends Component {
 							- The user can read additional information and see a picture of the location.
 						</p>
 						<br/>
-						<a href='https://maymoonah.github.io/Neighborhood-Map/'>
+						<Link to='https://maymoonah.github.io/Neighborhood-Map/'>
 							<p>Go To Neighborhood Map!</p>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
