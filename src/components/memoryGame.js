@@ -5,7 +5,8 @@ import Navbar from './navbar';
 class MemoryGame extends Component {
 	render() {
 		return (
-			<div>		
+			<div>
+				<Navbar />		
 				<div className="row">
 					<div className="col-md-4">
 						<img src="~" alt="Memory Game" width="100%" height="100%"/>
@@ -17,9 +18,9 @@ class MemoryGame extends Component {
 							- A player can flip no more than two cards at a time until all cards are matched.
 						</p>
 						<br/>
-						<a href='https://maymoonah.github.io/Memory-Game/'>
+						<Link to='https://maymoonah.github.io/Memory-Game/'>
 							<p>Go To Memory Game!</p>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
