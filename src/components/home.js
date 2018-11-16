@@ -7,10 +7,6 @@ class Home extends Component {
 			<div className="homepage">
 				<div className="jumbotron">
 					<h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
-					<hr className="my-4" />
-					<p className="lead">
-					    <Link to="/aboutme" className="btn btn-primary btn-lg" role="button">Check It Out !</Link>
-					</p>
 				</div>				
 			</div>
 		);
