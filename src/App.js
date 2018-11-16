@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Projects from './components/projects.js';
 import MemoryGame from './components/memoryGame';
@@ -10,14 +9,12 @@ import PixelArt from './components/pixelArt';
 import AboutMe from './components/aboutMe';
 import Resume from './components/resume';
 import Contact from './components/contact';
-import Navbar from './components/navbar';
 import Home from './components/home';
 
 class App extends Component {
   render() {
     return (
       <div className="main">
-        <Navbar />
         
         <Route exact path="/" component={Home} />
         <Route path="/aboutme" component={AboutMe} />
