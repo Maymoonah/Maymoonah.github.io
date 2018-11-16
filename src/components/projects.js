@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './navbar';
 
 class Projects extends Component {
 	render() {
 		return (
 			<div>
+				<Navbar />
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
