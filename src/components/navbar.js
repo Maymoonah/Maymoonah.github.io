@@ -17,18 +17,18 @@ class Navbar extends Component {
 						<li className="nav-item">
 							<Link className="nav-link" to='/aboutme'>About Me</Link>
 						</li>
-						<li class="nav-item dropdown">
-					        <Link class="nav-link dropdown-toggle" to='#' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<li className="nav-item dropdown">
+					        <Link className="nav-link dropdown-toggle" to='/projects' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					          Projects
 					        </Link>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <Link class="dropdown-item" to='/memorygame'>Memory Game</Link>
-					          <div class="dropdown-divider"></div>
-					          <Link class="dropdown-item" to='arcadegame'>Arcade Game</Link>
-					          <div class="dropdown-divider"></div>
-					          <Link class="dropdown-item" to='pixelart'>Pixel Art</Link>
-					          <div class="dropdown-divider"></div>
-					          <Link class="dropdown-item" to='neighborhoodmap'>Neighborhood map</Link>
+					        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <Link className="dropdown-item" to='/memorygame'>Memory Game</Link>
+					          <div className="dropdown-divider"></div>
+					          <Link className="dropdown-item" to='arcadegame'>Arcade Game</Link>
+					          <div className="dropdown-divider"></div>
+					          <Link className="dropdown-item" to='pixelart'>Pixel Art</Link>
+					          <div className="dropdown-divider"></div>
+					          <Link className="dropdown-item" to='neighborhoodmap'>Neighborhood map</Link>
 					        </div>
 					     </li>
 						<li className="nav-item">
