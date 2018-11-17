@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './navbar';
 
 class ArcadeGame extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar />
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game" width="100%" height="100%"/>
