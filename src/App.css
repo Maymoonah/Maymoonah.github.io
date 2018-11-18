@@ -154,7 +154,7 @@
   font-style: italic;
 }
 
-.resume .projects span.title {
+.resume .projects span.title, .resume .experience span.title {
   font-weight: bold;
 }
 
@@ -162,7 +162,7 @@
   padding: 0;
 }
 
-.resume .projects li {
+.resume .projects li, .resume .experience li {
   padding: 0;
   margin-left: 50px;
   line-height: 0;
