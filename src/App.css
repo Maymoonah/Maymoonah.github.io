@@ -183,3 +183,10 @@
     }
 }
 
+/*change text-align for contact info on small screen*/
+@media screen and (max-width: 770px) {
+    .resume .contactInfo, .resume .social {
+      text-align: center;
+    }
+}
+
