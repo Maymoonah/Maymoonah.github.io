@@ -106,6 +106,45 @@
   text-align: left;
 }
 
+.resume .summary, .resume .skills, .resume .projects, .resume .experience, .resume .education, .resume .certification {
+  margin: 20px 40px;
+  border-bottom: solid 1px #000;
+}
+
+.resumeHeader {
+  background-color: #1c3a4f;
+  padding: 30px 0px;
+}
+
+.resume .title {
+  text-transform: uppercase;
+  color: #bcddf4;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Abel', sans-serif;
+}
+
+.resume footer hr {
+  height: 2px;
+  background-color: #1c3a4f;
+  width: 100%;
+}
+
+.resume footer hr:nth-child(2) {
+    height: 1px;
+}
+
+.resume .contactInfo {
+  color: #bcddf4;
+  margin-left: 20px;
+}
+
+.resume .social {
+  color: #bcddf4;
+  margin-right: 20px;
+  text-align: right;
+}
+
 #logo {
   margin-right: 10px;
 }
