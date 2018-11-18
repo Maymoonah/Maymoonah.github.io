@@ -167,7 +167,8 @@
   margin-left: 50px;
   line-height: 0;
 }
-.container, .resume {
+
+.container, .resume, .arcade, .memory, .map, .art {
   margin-top: 50px;
 } 
 
