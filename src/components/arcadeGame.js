@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 class ArcadeGame extends Component {
 	render() {
 		return (
-			<div>
+			<div className="container arcade">
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game" width="100%" height="100%"/>
 					</div>
-					<div className="col-md-8">
-						<p className="description">
+					<div className="col-md-8 description">
+						<p>
 							- Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.<br/>
 							- Implemented Player, enemy, and other entities using Object-Oriented JavaScript.<br/>
 							- Player and multiple enemies which can move around have been instantiated.
