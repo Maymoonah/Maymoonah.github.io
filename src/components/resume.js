@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 
 class Resume extends Component {
 	render() {
@@ -34,27 +36,30 @@ class Resume extends Component {
 				<div className="skills">
 					<h1>Skills</h1>
 					<p>
-						Technical Skills: Languages: JavaScript, HTML5, CSS3, C++, SQL, PHP<br />
-						Frameworks/Libraries: jQuery, Knockout.js, Bootstrap, Jasmine, BackboneJS, ReactJS<br />
-						Other: Git/GitHub, AJAX, MS Office
+						<span>Technical Skills:</span><br />
+						<span>Languages:</span> JavaScript, HTML5, CSS3, C++, SQL, PHP<br />
+						<span>Frameworks/Libraries:</span> jQuery, Knockout.js, Bootstrap, Jasmine, BackboneJS, ReactJS<br />
+						<span>Other:</span> Git/GitHub, AJAX, MS Office
 					</p>
 				</div>
 				<div className="projects">
 					<h1>Projects</h1>
-					<p>
-						Classic Arcade Game Clone - https://maymoonah.github.io/Arcade-Game March 2018<br />
-						• Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.<br />
-						• Implemented Player, enemy, and other entities using Object-Oriented JavaScript.<br />
-						• Player and multiple enemies which can move around have been instantiated.<br />
-						Memory Game - https://maymoonah.github.io/Memory-Game/ January 2018<br />
-						• Flip over pairs of matching cards with static non-interactive starter code provided by Udacity.<br />
-						• Added game functionality such as click handling, matching logic, and winning condition using JavaScript and jQuery.<br />
-						• A player can flip no more than two cards at a time until all cards are matched.<br />
-						Neighborhood Map - https://maymoonah.github.io/Neighborhood-Map/ February 2018<br />
-						• Map of places in my neighborhood such as restaurants and schools.<br />
-						• Created a map using Google Maps JavaScript API and the framework Knockout.js.<br />
-						• The user can read additional information and see a picture of the location.<br />
-					</p>
+					<ul>
+						<span className="title">Classic Arcade Game Clone</span> - https://maymoonah.github.io/Arcade-Game March 2018<br />
+						<li>Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.</li><br />
+						<li>Implemented Player, enemy, and other entities using Object-Oriented JavaScript.</li><br />
+						<li>Player and multiple enemies which can move around have been instantiated.</li><br />
+
+						<span className="title">Memory Game</span> - https://maymoonah.github.io/Memory-Game/ <span className="date">January 2018</span><br />
+						<li>Flip over pairs of matching cards with static non-interactive starter code provided by Udacity.</li><br />
+						<li>Added game functionality such as click handling, matching logic, and winning condition using JavaScript and jQuery.</li><br />
+						<li>A player can flip no more than two cards at a time until all cards are matched.</li><br />
+
+						<span className="title">Neighborhood Map</span> - https://maymoonah.github.io/Neighborhood-Map/ <span className="date">February 2018</span><br />
+						<li>Map of places in my neighborhood such as restaurants and schools.</li><br />
+						<li>Created a map using Google Maps JavaScript API and the framework Knockout.js.</li><br />
+						<li>The user can read additional information and see a picture of the location.</li><br />
+					</ul>
 				</div>
 				<div className="experience">
 					<h1>Experience</h1>
