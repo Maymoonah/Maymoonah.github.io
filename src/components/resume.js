@@ -64,14 +64,14 @@ class Resume extends Component {
 				<div className="experience">
 					<h1>Experience</h1>
 					<p>
-						Islamic Center of San Gabriel Valley – Teacher Rowland Heights, CA | October 2011 - Present<br />
-						• Teach children of all ages and levels how to read the Arabic Language and recite the Holy Book the Quran.<br />
-						• Assess each student’s level, teach recognition and correct pronunciation of all letters, and teach recitation by imitation.<br />
-						• Teach non-Arabic speakers challenging letters by explaining points of vocal articulation from which letters are produced.<br />
-						• Worked with a student who regained hearing and taught him the Arabic letters by explaining vocal articulation and
-						putting emphasis on lip movement while pronouncing the letters.<br />
-						• Taught dozens of children through the years how to read starting from the Arabic letters to reading Arabic proficiently.<br />
-						• Motivated by my love to help others especially children, to share the knowledge that I have, and to experience the gratification of seeing the fruits of my labor.<br />
+						<span className="title">Islamic Center of San Gabriel Valley</span><span className="date">Teacher Rowland Heights, CA | October 2011 - Present</span><br /><br />
+						<li>Teach children of all ages and levels how to read the Arabic Language and recite the Holy Book the Quran.</li><br />
+						<li>Assess each student’s level, teach recognition and correct pronunciation of all letters, and teach recitation by imitation.</li><br />
+						<li>Teach non-Arabic speakers challenging letters by explaining points of vocal articulation from which letters are produced.</li><br />
+						<li>Worked with a student who regained hearing and taught him the Arabic letters by explaining vocal articulation and
+						putting emphasis on lip movement while pronouncing the letters.</li><br />
+						<li>Taught dozens of children through the years how to read starting from the Arabic letters to reading Arabic proficiently.</li><br />
+						<li>Motivated by my love to help others especially children, to share the knowledge that I have, and to experience the gratification of seeing the fruits of my labor.</li><br />
 					</p>
 				</div>
 				<div className="education">
