@@ -77,10 +77,10 @@ class Resume extends Component {
 				<div className="education">
 					<h1>Education & Training</h1>
 					<p>
-						Udacity – Front-End Web Developer Nanodegree 2018<br />
-						Mt. San Antonio College, Walnut – Computer Programming, AS 2017<br />
-						Mt. San Antonio College, Walnut – Computer Database Management Systems, AS 2017<br />
-						Mt. San Antonio College, Walnut – Liberal Arts and Sciences – Emphasis in Mathematics, AA 2017<br />
+						<span className="title">Udacity –</span> Front-End Web Developer Nanodegree <span className="date">2018</span><br />
+						<span className="title">Mt. San Antonio College, Walnut –</span> Computer Programming, AS <span className="date">2017</span><br />
+						<span className="title">Mt. San Antonio College, Walnut –</span> Computer Database Management Systems, AS <span className="date">2017</span><br />
+						<span className="title">Mt. San Antonio College, Walnut –</span> Liberal Arts and Sciences – Emphasis in Mathematics, AA <span className="date">2017</span><br />
 					</p>
 				</div>
 				<div className="certification">
