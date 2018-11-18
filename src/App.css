@@ -154,7 +154,7 @@
   font-style: italic;
 }
 
-.resume .projects span.title, .resume .experience span.title, .resume .education span.title {
+.resume .projects span.title, .resume .experience span.title, .resume .education span.title, .resume .certification span.title  {
   font-weight: bold;
 }
 
