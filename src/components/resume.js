@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Resume extends Component {
 	render() {
 		return (
-			<div className="resume ">	
+			<div className="resume">	
 				<header className="row resumeHeader">
 					<div className="col-md-3">
 						<p className="contactInfo">
