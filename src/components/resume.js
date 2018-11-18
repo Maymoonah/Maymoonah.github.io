@@ -86,8 +86,8 @@ class Resume extends Component {
 				<div className="certification">
 					<h1>Certification</h1>
 					<p>
-						Mt. San Antonio College, Walnut – Certified CIS Professional in C++ Programming 2017<br />
-						Mt. San Antonio College, Walnut – Certificate in Introduction to Computer Information Technology 2014<br />
+						<span className="title">Mt. San Antonio College, Walnut – </span>Certified CIS Professional in C++ Programming <span className="date">2017</span><br />
+						<span className="title">Mt. San Antonio College, Walnut – </span>Certificate in Introduction to Computer Information Technology <span className="date">2014</span><br />
 					</p>
 				</div>
 			</div>
