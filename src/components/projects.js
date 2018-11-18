@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Projects extends Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="container work">
 				<div className="row">
 					<div className="col-md-12">
 						<h1 className="title">Projects</h1>
