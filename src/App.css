@@ -116,12 +116,16 @@
   padding: 30px 0px;
 }
 
-.resume .title {
+.resume h1.title {
   text-transform: uppercase;
   color: #bcddf4;
   text-align: center;
   font-size: 55px;
   font-family: 'Abel', sans-serif;
+}
+
+.resume span.date {
+  float: right;
 }
 
 .resume footer hr {
@@ -143,6 +147,25 @@
   color: #bcddf4;
   margin-right: 20px;
   text-align: right;
+}
+
+.resume .skills span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.resume .projects span.title {
+  font-weight: bold;
+}
+
+.resume .projects ul {
+  padding: 0;
+}
+
+.resume .projects li {
+  padding: 0;
+  margin-left: 50px;
+  line-height: 0;
 }
 
 #logo {
