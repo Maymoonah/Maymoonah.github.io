@@ -97,8 +97,9 @@
 }
 
 .description {
-  font-size: 16px;
-  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-family: 'sans-serif';
+  font-weight: normal;
 }
 
 .about .title, .container .title, .contact .title {
