@@ -170,7 +170,26 @@
 
 .container, .resume, .arcade, .memory, .map, .art {
   margin-top: 50px;
+}
+
+.contactForm {
+  margin-top: 100px;
 } 
+
+.contactForm .form-control, .contactForm button {
+  width: 40%;
+  margin: 10px;
+}
+
+.contactForm h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 12px; 
+}
+
+.contactForm .textArea {
+  height: 300px;
+}
 
 #logo {
   margin-right: 10px;
