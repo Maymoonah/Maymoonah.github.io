@@ -15,6 +15,7 @@ class Contact extends Component {
 				    <Button className="btn btn-large centerButton" type="submit">Send</Button>
 				  </FormGroup>
 				</form>
+				<p>Add Lindedin & GitHub</p>
 			</div>
 		);
 	}
