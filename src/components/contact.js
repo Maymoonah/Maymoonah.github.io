@@ -12,7 +12,7 @@ class Contact extends Component {
 				    <FormControl type="text" className="form-control" name="lastName" placeholder="Last Name"/>
 				    <FormControl type="text" className="form-control" name="email" placeholder="Email"/>
 				    <FormControl className="form-control textArea" name="textarea" componentClass="textarea" placeholder="Message..." />
-				    <Button className="btn btn-primary btn-large centerButton" type="submit">Send</Button>
+				    <Button className="btn btn-large centerButton" type="submit">Send</Button>
 				  </FormGroup>
 				</form>
 			</div>
