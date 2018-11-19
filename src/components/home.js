@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Jumbotron } from 'react-bootstrap';
 
 class Home extends Component {
 	render() {
 		return (
 			<div className="homepage">
-				<div className="jumbotron">
+				<Jumbotron className="jumbo">
 					<h1 className="display-4">Welcome to Maymoonah's Portfolio!</h1>
-				</div>				
+				</Jumbotron>				
 			</div>
 		);
 	}
