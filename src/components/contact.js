@@ -10,11 +10,12 @@ class Contact extends Component {
 						<h1 className="title">Contact Me</h1>
 					</div>
 				</div>
-				<form>
+				<form action="contactForm.php" method="post">
 					<input type="text" placeholder="First Name" required />
 					<input type="text" placeholder="Last Name" required />
 					<input type="email" placeholder="Email Address" required />
-					<textarea placeholder="Message" required></textarea>					
+					<textarea placeholder="Message" required></textarea>	
+					<input type="submit" value="Send"/>									
 				</form>
 			</div>
 		);
