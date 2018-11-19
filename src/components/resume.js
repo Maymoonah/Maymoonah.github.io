@@ -45,17 +45,17 @@ class Resume extends Component {
 				<div className="projects">
 					<h1>Projects</h1>
 					<ul>
-						<span className="title">Classic Arcade Game Clone</span> - <Link to='https://maymoonah.github.io/Arcade-Game'>https://maymoonah.github.io/Arcade-Game</Link><span className="date">March 2018</span><br /><br />
+						<span className="title">Classic Arcade Game Clone</span> - <a href='https://maymoonah.github.io/Arcade-Game'>https://maymoonah.github.io/Arcade-Game</a><span className="date">March 2018</span><br /><br />
 						<li>Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.</li><br />
 						<li>Implemented Player, enemy, and other entities using Object-Oriented JavaScript.</li><br />
 						<li>Player and multiple enemies which can move around have been instantiated.</li><br />
 
-						<span className="title">Memory Game</span> - <Link to='https://maymoonah.github.io/Memory-Game/'>https://maymoonah.github.io/Memory-Game/</Link><span className="date">January 2018</span><br /><br />
+						<span className="title">Memory Game</span> - <a href='https://maymoonah.github.io/Memory-Game/'>https://maymoonah.github.io/Memory-Game/</a><span className="date">January 2018</span><br /><br />
 						<li>Flip over pairs of matching cards with static non-interactive starter code provided by Udacity.</li><br />
 						<li>Added game functionality such as click handling, matching logic, and winning condition using JavaScript and jQuery.</li><br />
 						<li>A player can flip no more than two cards at a time until all cards are matched.</li><br />
 
-						<span className="title">Neighborhood Map</span> - <Link to='https://maymoonah.github.io/Neighborhood-Map/'>https://maymoonah.github.io/Neighborhood-Map/</Link><span className="date">February 2018</span><br /><br />
+						<span className="title">Neighborhood Map</span> - <a href='https://maymoonah.github.io/Neighborhood-Map/'>https://maymoonah.github.io/Neighborhood-Map/</a><span className="date">February 2018</span><br /><br />
 						<li>Map of places in my neighborhood such as restaurants and schools.</li><br />
 						<li>Created a map using Google Maps JavaScript API and the framework Knockout.js.</li><br />
 						<li>The user can read additional information and see a picture of the location.</li><br />
