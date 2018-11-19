@@ -8,9 +8,9 @@ class Contact extends Component {
 				<form className="contactForm" onSubmit={this.gotEmail}>
 				  <FormGroup role="form">
 				  	<h1>Contact Me</h1>
-				    <FormControl type="text" className="form-control" name="firstName"/>
-				    <FormControl type="text" className="form-control" name="lastName"/>
-				    <FormControl type="text" className="form-control" name="email"/>
+				    <FormControl type="text" className="form-control" name="firstName" placeholder="First Name"/>
+				    <FormControl type="text" className="form-control" name="lastName" placeholder="Last Name"/>
+				    <FormControl type="text" className="form-control" name="email" placeholder="Email"/>
 				    <FormControl className="form-control textArea" name="textarea" componentClass="textarea" placeholder="Message..." />
 				    <Button className="btn btn-primary btn-large centerButton" type="submit">Send</Button>
 				  </FormGroup>
