@@ -174,12 +174,11 @@
 
 .contactForm {
   margin-top: 100px;
-  text-align: center;
 } 
 
 .contactForm .form-control, .contactForm button {
-  width: 100%;
-  margin: 10px;
+  width: calc(100% - 40px);
+  margin: 20px 20px;
 }
 
 .contactForm h1 {
@@ -188,10 +187,35 @@
   margin-left: 12px; 
   text-transform: uppercase;
   font-size: 35px;
+  color: #000;
+  text-shadow: 3px 3px 5px #1c3a4f;
 }
 
 .contactForm .textArea {
   height: 200px;
+}
+
+.container .contactForm {
+  background: url('./images/contact.jpg');
+  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  border-radius: 4px;
+  border: 2px solid #1c3a4f;
+}
+
+.contactForm .form-control {
+  border: 1px solid #000;
+}
+
+.contactForm button {
+  background-color: #1c3a4f;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
 }
 
 #logo {
