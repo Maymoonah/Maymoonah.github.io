@@ -174,10 +174,11 @@
 
 .contactForm {
   margin-top: 100px;
+  text-align: center;
 } 
 
 .contactForm .form-control, .contactForm button {
-  width: 40%;
+  width: 100%;
   margin: 10px;
 }
 
@@ -185,10 +186,12 @@
   text-align: left;
   margin-bottom: 20px;
   margin-left: 12px; 
+  text-transform: uppercase;
+  font-size: 35px;
 }
 
 .contactForm .textArea {
-  height: 300px;
+  height: 200px;
 }
 
 #logo {
