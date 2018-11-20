@@ -172,10 +172,6 @@
   margin-top: 50px;
 }
 
-.contactForm {
-  margin-top: 100px;
-} 
-
 .contactForm .form-control, .contactForm button {
   width: calc(100% - 40px);
   margin: 20px 20px;
@@ -195,12 +191,13 @@
   height: 150px;
 }
 
-.container .contactForm {
+.cont .contactForm {
   background: url('./images/contact.jpg');
   background-size: contain;
   background-repeat: no-repat;
   border-radius: 4px;
   border: 2px solid #1c3a4f;
+  display: block;
 }
 
 .contactForm .form-control {
@@ -216,6 +213,12 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 2px;
+}
+
+.contactForm {
+  display: inline-block;
+  margin: 100px auto;
+  text-align: left;
 }
 
 #logo {
@@ -238,9 +241,7 @@
 
 /*redue size of contact form on bigger screen*/
 @media screen and (min-width: 990px) {
-    .container .contactForm {
-      width: 60%;
+    .cont .contactForm {
+      width: 50%;
     }
 }
-
-
