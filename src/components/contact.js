@@ -15,7 +15,10 @@ class Contact extends Component {
 				    <Button className="btn btn-large centerButton" type="submit">Send</Button>
 				  </FormGroup>
 				</form>
-				<p>Add Lindedin & GitHub</p>
+				<div className="social-icons">
+					<p id="github"><a href="https://github.com/Maymoonah">Github <i class="fab fa-github"></i></a></p>
+					<p id="linkedin"><a href="https://www.linkedin.com/in/maymoonahm/">Linkedin <i class="fab fa-linkedin"></i></a></p>					
+				</div>
 			</div>
 		);
 	}
