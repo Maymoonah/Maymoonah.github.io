@@ -4,7 +4,7 @@ import { form, FormGroup, FormControl, Button } from 'react-bootstrap';
 class Contact extends Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="contact">
 				<form className="contactForm" onSubmit={this.gotEmail}>
 				  <FormGroup role="form">
 				  	<h1>Contact Me</h1>
