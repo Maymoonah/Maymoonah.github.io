@@ -219,6 +219,34 @@
   display: inline-block;
   margin: 100px auto;
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact .social-icons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact .social-icons #github, .contact .social-icons #linkedin {
+  margin-right: 20px;
+}
+
+.contact p {
+  display: inline;
+  font-size: 20px;
+}
+
+.contact i {
+  font-size: 36px;
+}
+
+.contact a {
+  color: #000;
+}
+
+.contact a:hover {
+  color: #285472;
+  text-decoration: none;
 }
 
 #logo {
