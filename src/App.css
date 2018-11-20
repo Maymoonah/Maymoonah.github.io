@@ -40,7 +40,6 @@
 
 .description {
   margin-top: 20px;
-  font-size: 20px;
   font-family: 'Courier New';
   font-weight: bold;
   padding: 20px;
@@ -98,7 +97,7 @@
 
 .description {
   font-size: 18px;
-  font-family: 'sans-serif';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
 }
 
@@ -141,7 +140,7 @@
 
 .resume .contactInfo {
   color: #bcddf4;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .resume .social {
@@ -166,6 +165,10 @@
 .resume .projects li, .resume .experience li {
   padding: 0;
   margin-left: 50px;
+}
+
+.resume, .description {
+  font-family: 'Istok Web', sans-serif;
 }
 
 .container, .resume, .arcade, .memory, .map, .art {
@@ -213,6 +216,11 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 2px;
+}
+
+.contactForm button:hover {
+  font-size: 26px;
+  background-color: #285472;
 }
 
 .contactForm {
@@ -264,6 +272,7 @@
 @media screen and (max-width: 770px) {
     .resume .contactInfo, .resume .social {
       text-align: center;
+      margin-left: 20px;
     }
 }
 
