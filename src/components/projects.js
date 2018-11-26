@@ -14,13 +14,13 @@ class Projects extends Component {
 					<div className="row">
 						<div className="col-md-6 project">
 							<Link to='/projects/memorygame'>
-								<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Memory Game"/>
+								<img src="../images/Memory.jpg" alt="Memory Game"/>
 								<h4>Memory Game</h4>
 							</Link>
 						</div>
 						<div className="col-md-6 project">
 							<Link to='/projects/arcadegame'>
-								<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game"/>
+								<img src="../images/Arcade.png" alt="Arcade Game"/>
 								<h4>Arcade Game</h4>
 							</Link>
 						</div>
@@ -28,13 +28,13 @@ class Projects extends Component {
 					<div className="row">
 						<div className="col-md-6 project">
 							<Link to='/projects/pixelart'>
-								<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Pixel Art"/>
+								<img src="../images/Pixel.png" alt="Pixel Art"/>
 								<h4>Pixel Art</h4>
 							</Link>
 						</div>
 						<div className="col-md-6 project">
 							<Link to='/projects/neighborhoodmap'>
-								<img src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map"/>
+								<img src="../images/Map.png" alt="Neighborhood Map"/>
 								<h4>Neighborhood Map</h4>
 							</Link>
 						</div>
