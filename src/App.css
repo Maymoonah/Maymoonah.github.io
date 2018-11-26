@@ -33,11 +33,6 @@
   margin-top: 50px;
 }
 
-.project {
-  border: #000 solid 1px;
-  margin: 0;
-}
-
 .description {
   margin-top: 20px;
   font-family: 'Courier New';
@@ -58,20 +53,17 @@
   border: 1px solid #000;
 }
 
-.main hr {
-  height: 1px;
-  box-shadow: 1px 1px 2px #400463;
-  border: none;
-  color: #878787;
-  width: 60%;
-}
-
 .container h2 {
   color: #000;
 }
 
 .projects h4 {
   color: #000;
+}
+
+.projects .row {
+  border-bottom: 1px solid #77a5c4;
+  margin-bottom: 10px;
 }
 
 .navigation {
@@ -126,16 +118,6 @@
 
 .resume span.date {
   float: right;
-}
-
-.resume footer hr {
-  height: 2px;
-  background-color: #1c3a4f;
-  width: 100%;
-}
-
-.resume footer hr:nth-child(2) {
-    height: 1px;
 }
 
 .resume .contactInfo {
