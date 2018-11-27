@@ -16,8 +16,8 @@ class Contact extends Component {
 				  </FormGroup>
 				</form>
 				<div className="social-icons">
-					<p id="github"><a href="https://github.com/Maymoonah">Github <i class="fab fa-github"></i></a></p>
-					<p id="linkedin"><a href="https://www.linkedin.com/in/maymoonahm/">Linkedin <i class="fab fa-linkedin"></i></a></p>					
+					<p id="github"><a href="https://github.com/Maymoonah">Github <i className="fab fa-github"></i></a></p>
+					<p id="linkedin"><a href="https://www.linkedin.com/in/maymoonahm/">Linkedin <i className="fab fa-linkedin"></i></a></p>					
 				</div>
 			</div>
 		);
