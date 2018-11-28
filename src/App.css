@@ -197,6 +197,7 @@
   border-radius: 4px;
   border: 2px solid #293a56;
   display: block;
+  width: 80%;
 }
 
 .contactForm .form-control {
