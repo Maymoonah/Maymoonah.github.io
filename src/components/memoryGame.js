@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import memory from '../images/Memory.jpg';
 
 class MemoryGame extends Component {
 	render() {
@@ -7,7 +8,7 @@ class MemoryGame extends Component {
 			<div className="container memory">
 				<div className="row">
 					<div className="col-md-4">
-						<img src=".././images/Memory.png" alt="Memory Game" width="100%" height="100%"/>
+						<img src={memory} alt="Memory Game" width="100%" height="100%"/>
 					</div>
 					<div className="col-md-8 description">
 						<p>

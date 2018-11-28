@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import arcade from '../images/Arcade.jpg';
 
 class ArcadeGame extends Component {
 	render() {
@@ -7,7 +8,7 @@ class ArcadeGame extends Component {
 			<div className="container arcade">
 				<div className="row">
 					<div className="col-md-4">
-						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Arcade Game" width="100%" height="100%"/>
+						<img className="images" src={arcade} alt="Arcade Game" width="100%" height="100%"/>
 					</div>
 					<div className="col-md-8 description">
 						<p>

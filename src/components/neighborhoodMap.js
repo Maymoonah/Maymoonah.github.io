@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import map from '../images/Map.jpg';
 
 class NeighborhoodMap extends Component {
 	render() {
@@ -7,7 +8,7 @@ class NeighborhoodMap extends Component {
 			<div className="container map">
 				<div className="row">
 					<div className="col-md-4">
-						<img className="images" src="http://www.allwhitebackground.com/images/2/2581.jpg" alt="Neighborhood Map" width="100%" height="100%"/>
+					<img className="images" src={map} alt="Neighborhood Map" width="100%" height="100%"/>
 					</div>
 					<div className="col-md-8 description">
 						<p>
