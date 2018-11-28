@@ -5,7 +5,7 @@
   margin-top: 10%;
 }
 
-.main .display-4 {
+.homepage .display-4 {
   text-shadow: 6px 6px 6px #000;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
@@ -163,10 +163,10 @@
 .resume, .description {
   font-family: 'Istok Web', sans-serif;
 }
-
-.container, .resume, .arcade, .memory, .map, .art {
+/*
+.about , .resume, .arcade, .memory, .map, .art {
   margin-top: 50px;
-}
+}*/
 
 .contactForm .form-control, .contactForm button {
   width: calc(100% - 40px);
@@ -248,6 +248,10 @@
 .contact a:hover {
   color: #285472;
   text-decoration: none;
+}
+
+.container .memory, .container .arcade, .container .art, .container .map, .resume {
+  margin-top: 50px;
 }
 
 #logo {
