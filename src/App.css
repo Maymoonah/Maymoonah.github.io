@@ -1,11 +1,11 @@
 .main .jumbo {
   text-align: center;
   height: 300px;
-  background: rgba(28, 58, 79, 0.7);
+  background: rgba(41, 58, 86, 0.5);
   margin-top: 10%;
 }
 
-.homepage .display-4 {
+.homepage .name {
   text-shadow: 6px 6px 6px #000;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
@@ -20,8 +20,28 @@
   padding: 20px;
 }
 
-.navbar {
+.navigation {
+  background-color: #3a3f47;
   align-content: center;
+  border-bottom: 2px solid #313844;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar .nav-link:hover {
+  color: #bbd1f7;
+}
+
+.navigation .nav-link {
+  color: #fff;
+}
+
+.navigation .navbar-brand {
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .projects img {
@@ -46,13 +66,13 @@
 }
 
 .work .title {
-  text-shadow: 2px 2px 8px #1c3a4f;
+  text-shadow: 2px 2px 8px #293a56;
 }
 
 .work .project {
   border-radius: 5px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.23);
-  background-color: #92b6ce;
+  background-color: #6f7c91;
 }
 
 .work img{
@@ -69,25 +89,12 @@
 }
 
 .work .project:hover {
-  background-color: rgb(28, 58, 79);
+  background-color: #293a56;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.23);
 }
 
 .work .project:hover h4 {
   color: #fff;
-}
-
-.navigation {
-  background-color: #082d68;
-}
-
-.navigation .nav-link {
-  color: #fff;
-}
-
-.navigation .navbar-brand {
-  color: #fff;
-  font-family: 'Shadows Into Light', cursive;
 }
 
 .homepage {
@@ -115,13 +122,13 @@
 }
 
 .resumeHeader {
-  background-color: #1c3a4f;
+  background-color: #293a56;
   padding: 30px 0px;
 }
 
 .resume h1.title {
   text-transform: uppercase;
-  color: #bcddf4;
+  color: #cee0ff;
   text-align: center;
   font-size: 55px;
   font-family: 'Abel', sans-serif;
@@ -132,12 +139,12 @@
 }
 
 .resume .contactInfo {
-  color: #bcddf4;
+  color: #cee0ff;
   margin-left: 40px;
 }
 
 .resume .social {
-  color: #bcddf4;
+  color: #cee0ff;
   margin-right: 20px;
   text-align: right;
 }
@@ -163,10 +170,6 @@
 .resume, .description {
   font-family: 'Istok Web', sans-serif;
 }
-/*
-.about , .resume, .arcade, .memory, .map, .art {
-  margin-top: 50px;
-}*/
 
 .contactForm .form-control, .contactForm button {
   width: calc(100% - 40px);
@@ -180,7 +183,7 @@
   text-transform: uppercase;
   font-size: 35px;
   color: #000;
-  text-shadow: 3px 3px 5px #1c3a4f;
+  text-shadow: 3px 3px 5px #293a56;
 }
 
 .contactForm .textArea {
@@ -192,7 +195,7 @@
   background-size: contain;
   background-repeat: no-repat;
   border-radius: 4px;
-  border: 2px solid #1c3a4f;
+  border: 2px solid #293a56;
   display: block;
 }
 
@@ -201,7 +204,7 @@
 }
 
 .contactForm button {
-  background-color: #1c3a4f;
+  background-color: #293a56;
   color: #fff;
   font-weight: bold;
   font-size: 24px;
@@ -213,7 +216,7 @@
 
 .contactForm button:hover {
   font-size: 26px;
-  background-color: #285472;
+  background-color: #314668;
 }
 
 .contactForm {
@@ -246,7 +249,7 @@
 }
 
 .contact a:hover {
-  color: #285472;
+  color: #314668;
   text-decoration: none;
 }
 
