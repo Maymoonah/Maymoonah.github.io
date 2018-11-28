@@ -41,7 +41,10 @@ class AboutMe extends Component {
 							I tackle this problem by explaining to them the points of vocal articulation. 
 							I also worked with a student who regained hearing. Pronouncing some letters was a challenging task for him. 
 							So, I took my time teaching him points of vocal articulation. 
-							I also emphasized on lip movement when I would sound the letters.
+							I also emphasized on lip movement when I would sound the letters.<br />
+							<br />
+							I created this portfolio website from scratch using HTML5, CSS3, and ReactJS. I used React components, 
+							React Route, and React Bootstrap.
 						</p>
 					</div>
 				</div>
