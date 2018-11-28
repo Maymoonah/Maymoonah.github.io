@@ -15,7 +15,6 @@
 }
 
 .description {
-  margin-top: 20px;
   font-family: 'Courier New';
   font-weight: bold;
   padding: 20px;
@@ -74,7 +73,7 @@
 }
 
 .about .title, .container .title {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
 }
 
@@ -221,6 +220,10 @@
 
 #logo {
   margin-right: 10px;
+}
+
+.about #profilePic, .about #workPic {
+  margin-top: 25px;
 }
 
 /*change position of jumbotron on small screen*/
