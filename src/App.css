@@ -258,6 +258,10 @@
   margin-right: 10px;
 }
 
+.about img {
+  margin: auto;
+}
+
 .about #profilePic, .about #workPic {
   margin-top: 25px;
   margin-left: 25px;
@@ -285,5 +289,12 @@
 @media screen and (min-width: 990px) {
     .contact .contactForm {
       width: 50%;
+    }
+}
+
+/*redue size of contact form on bigger screen*/
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .description {
+      margin-left: 100px;
     }
 }
