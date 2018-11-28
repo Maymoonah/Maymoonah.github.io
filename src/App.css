@@ -75,6 +75,7 @@
 .about .title, .container .title {
   margin-top: 40px;
   text-align: left;
+  margin-left: 25px;
 }
 
 .resume .summary, .resume .skills, .resume .projects, .resume .experience, .resume .education, .resume .certification {
@@ -224,6 +225,10 @@
 
 .about #profilePic, .about #workPic {
   margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  border: 2px solid #1c3a4f;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.23);
 }
 
 /*change position of jumbotron on small screen*/
