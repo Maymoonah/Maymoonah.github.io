@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 // import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 class Navbar extends Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navigation">
-				<Link className="navbar-brand" to='/'><img src="../images/logo.png" id="logo" alt="logo"/>Maymoonah Mohammed</Link>
+				<Link className="navbar-brand" to='/'><img src={logo} id="logo" alt="logo" height="30px" width="40px" />Maymoonah Mohammed</Link>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
 					<span className="navbar-toggler-icon"></span>
 				</button>
