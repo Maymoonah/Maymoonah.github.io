@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import proPic from '../images/May1.jpg';
+import workPic from '../images/May3.JPG';
 
 class AboutMe extends Component {
 	render() {
@@ -12,7 +14,8 @@ class AboutMe extends Component {
 
 				<div className="row">
 					<div className="col-md-4">
-						<img src="../../images/May.JPG" alt="Maymoonah"/>
+						<img src={proPic} height="349px" width="350px" alt="Maymoonah"/>
+						<img src={workPic} height="349px" width="350px" alt="Maymoonah"/>
 					</div>
 					<div className="col-md-8">
 						<p className="description">
