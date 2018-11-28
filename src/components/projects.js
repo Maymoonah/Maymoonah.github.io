@@ -22,7 +22,6 @@ class Projects extends Component {
 								<h4>Memory Game</h4>
 							</Link>
 						</div>
-					
 						<div className="col-md-6 project">
 							<Link to='/projects/arcadegame' class="link">
 								<img src={arcade} alt="Arcade Game"/>
@@ -37,7 +36,6 @@ class Projects extends Component {
 								<h4>Pixel Art</h4>
 							</Link>
 						</div>
-					
 						<div className="col-md-6 project">
 							<Link to='/projects/neighborhoodmap' class="link">
 								<img src={map} alt="Neighborhood Map"/>
