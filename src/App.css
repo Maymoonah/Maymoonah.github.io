@@ -254,8 +254,12 @@
   text-decoration: none;
 }
 
-.about, .resume, .work {
+.about, .resume, .work{
   margin-top: 50px;
+}
+
+.memory, .arcade, .map, .art {
+  margin-top: 150px;
 }
 
 #logo {
