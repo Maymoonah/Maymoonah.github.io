@@ -250,7 +250,7 @@
   text-decoration: none;
 }
 
-.container .memory, .container .arcade, .container .art, .container .map, .resume {
+.about, .resume, .work {
   margin-top: 50px;
 }
 
