@@ -7,7 +7,7 @@ class Home extends Component {
 			<div className="homepage">
 				<Jumbotron className="jumbo">
 					<h1 className="name display-4">Welcome to Maymoonah's Portfolio!</h1>
-				</Jumbotron>				
+				</Jumbotron>	
 			</div>
 		);
 	}
