@@ -6,6 +6,7 @@ class MemoryGame extends Component {
 	render() {
 		return (
 			<div className="container memory">
+				<h2 className="projectTitle">The Memory Game</h2>
 				<div className="row">
 					<div className="col-md-4">
 						<img src={memory} alt="Memory Game" width="100%" height="100%"/>

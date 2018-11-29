@@ -6,6 +6,7 @@ class PixelArt extends Component {
 	render() {
 		return (
 			<div className="container art">
+				<h2 className="projectTitle">Pixel Art</h2>
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src={art} alt="Pixel Art" width="100%" height="100%"/>

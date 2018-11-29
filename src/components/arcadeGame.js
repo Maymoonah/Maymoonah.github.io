@@ -6,6 +6,7 @@ class ArcadeGame extends Component {
 	render() {
 		return (
 			<div className="container arcade">
+				<h2 className="projectTitle">The Arcade Game</h2>
 				<div className="row">
 					<div className="col-md-4">
 						<img className="images" src={arcade} alt="Arcade Game" width="100%" height="100%"/>
