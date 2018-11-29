@@ -1,8 +1,15 @@
+html, .homepage {
+  background-image: url("images/code.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
 .main .jumbo {
-  text-align: center;
+/*  background-image: url("images/code.JPG");
+*/  text-align: center;
   height: 300px;
-  background: rgba(41, 58, 86, 0.5);
-  margin-top: 10%;
+  background: rgba(24, 75, 112, 0.8);
+  margin-top: 13%;
 }
 
 .homepage .name {
@@ -93,17 +100,6 @@
   color: #fff;
 }
 
-.bg {
-  height: 
-}
-
-.homepage {
-  background-image: url("images/code.JPG");
-  max-height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
 .description {
   font-size: 18px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -119,6 +115,7 @@
 .resume .summary, .resume .skills, .resume .projects, .resume .experience, .resume .education, .resume .certification {
   margin: 20px 40px;
   border-bottom: solid 1px #000;
+  margin-bottom: 0px;
 }
 
 .resumeHeader {
@@ -236,6 +233,10 @@
   margin-right: 20px;
 }
 
+.contact {
+  padding: 25px;
+}
+
 .contact p {
   display: inline;
   font-size: 20px;
@@ -291,6 +292,13 @@
 @media screen and (max-width: 548px) {
     .main .jumbo {
         margin-top: 25%;
+    }
+}
+
+/*change position of jumbotron on small screen*/
+@media screen and (max-width: 970px) {
+    .main .jumbo {
+        margin-top: 20%;
     }
 }
 
