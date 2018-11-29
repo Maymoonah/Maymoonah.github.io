@@ -33,7 +33,7 @@ class AboutMe extends Component {
 							<br />
 							My second passion is teaching Arabic/Quran. 
 							At ICSGV, I have been teaching children of all ages and various levels how to read the Arabic language.
-							I also teach them how to recite the Holy book the Quran. I’ve had dozens of children in my class in the seven years I’ve been teaching.
+							I also teach them how to recite the Holy Quran. I’ve had dozens of children in my class in the seven years I’ve been teaching.
 							Most of them started off as beginners and can now read Arabic without any difficulty. 
 							I teach the recognition and correct pronunciation of the Arabic letters. 
 							I also teach the recitation of the Quran by imitation. 
@@ -43,8 +43,10 @@ class AboutMe extends Component {
 							So, I took my time teaching him points of vocal articulation. 
 							I also emphasized on lip movement when I would sound the letters.<br />
 							<br />
+							I am always trying to keep up with all the new technologies in the Web Development field. There is so 
+							much to learn as things are constantly updating. I am currently learning ReactJS, WordPress, and PHP.
 							I created this portfolio website from scratch using HTML5, CSS3, and ReactJS. I used React components, 
-							React Route, and React Bootstrap.
+							React Route, and React Bootstrap. Well that's enough about me, check out some of my work!
 						</p>
 					</div>
 				</div>
