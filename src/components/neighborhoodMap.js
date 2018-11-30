@@ -21,7 +21,7 @@ class NeighborhoodMap extends Component {
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Neighborhood-Map/'>
-							<button className="btn btn-primary projectBtn">Go To Neighborhood Map!</button>
+							<button className="btn projectBtn">Go To Neighborhood Map!</button>
 						</Link>
 					</div>
 				</div>
