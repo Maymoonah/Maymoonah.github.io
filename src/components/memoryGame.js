@@ -21,7 +21,7 @@ class MemoryGame extends Component {
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Memory-Game/'>
-							<p>Go To Memory Game!</p>
+							<button className="btn btn-primary projectBtn">Go To Memory Game!</button>
 						</Link>
 					</div>
 				</div>

@@ -21,7 +21,7 @@ class PixelArt extends Component {
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Pixel-Art-Maker/'>
-							<p>Go To Pixel Art!</p>
+							<button className="btn btn-primary">Go To Pixel Art!</button>
 						</Link>
 					</div>
 				</div>

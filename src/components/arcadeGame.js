@@ -21,7 +21,7 @@ class ArcadeGame extends Component {
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Arcade-Game/'>
-							<p>Go To Arcade Game!</p>
+							<button className="btn btn-primary projectBtn">Go To Arcade Game!</button>
 						</Link>
 					</div>
 				</div>
