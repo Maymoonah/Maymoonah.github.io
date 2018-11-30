@@ -300,7 +300,19 @@ html, .homepage {
   text-transform: uppercase;
   margin-left: 25px;
   background-color: #293a56;
+}
+
+.container .projectBtn a {
   color: #fff;
+}
+
+.container .projectBtn a:hover {
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.container .projectBtn:hover {
+  background-color: #314668;
 }
 
 /*change position of jumbotron on small screen*/
