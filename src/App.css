@@ -259,8 +259,14 @@ html, .homepage {
   margin-top: 50px;
 }
 
-.memory, .arcade, .map, .art {
-  margin-top: 100px;
+.memory, .arcade {
+  padding-top: 8%;
+  padding-bottom: 12%;
+}
+
+.art, .map {
+  padding-top: 8%;
+  padding-bottom: 15%;
 }
 
 #logo {
