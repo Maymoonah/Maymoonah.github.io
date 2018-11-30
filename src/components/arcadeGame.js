@@ -13,9 +13,11 @@ class ArcadeGame extends Component {
 					</div>
 					<div className="col-md-8 description">
 						<p>
-							- Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.<br/>
-							- Implemented Player, enemy, and other entities using Object-Oriented JavaScript.<br/>
-							- Player and multiple enemies which can move around have been instantiated.
+							<ul>
+								<li>Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.</li><br/>
+								<li>Implemented Player, enemy, and other entities using Object-Oriented JavaScript.</li><br/>
+								<li>Player and multiple enemies which can move around have been instantiated.</li>
+							</ul>
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Arcade-Game/'>

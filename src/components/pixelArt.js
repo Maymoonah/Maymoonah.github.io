@@ -13,9 +13,11 @@ class PixelArt extends Component {
 					</div>
 					<div className="col-md-8 description">
 						<p>
-							- Customizable canvas where the user can create art by coloring pixels.
+							<ul>
+								<li>Customizable canvas where the user can create art by coloring pixels.</li>
 							<br />
-							- I created the application using HTML5, CSS3, and JavaScript.
+								<li>I created the application using HTML5, CSS3, and JavaScript.</li>
+							</ul>
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Pixel-Art-Maker/'>

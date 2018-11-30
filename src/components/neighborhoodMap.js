@@ -13,9 +13,11 @@ class NeighborhoodMap extends Component {
 					</div>
 					<div className="col-md-8 description">
 						<p>
-							- Map of places in my neighborhood such as restaurants and schools.<br/>
-							- Created a map using Google Maps JavaScript API and the framework Knockout.js.<br/>
-							- The user can read additional information and see a picture of the location.
+							<ul>
+								<li>Map of places in my neighborhood such as restaurants and schools.</li><br/>
+								<li>Created a map using Google Maps JavaScript API and the framework Knockout.js.</li><br/>
+								<li>The user can read additional information and see a picture of the location.</li>
+							</ul>
 						</p>
 						<br/>
 						<Link to='https://maymoonah.github.io/Neighborhood-Map/'>
