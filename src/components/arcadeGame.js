@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import arcade from '../images/Arcade.jpg';
 
 class ArcadeGame extends Component {
@@ -20,9 +19,7 @@ class ArcadeGame extends Component {
 							</ul>
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Arcade-Game/'>
-							<button className="btn projectBtn">Go To Arcade Game!</button>
-						</Link>
+							<button className="btn projectBtn"><a href="https://maymoonah.github.io/Arcade-Game/">Go To Arcade Game!</a></button>
 					</div>
 				</div>
 			</div>			

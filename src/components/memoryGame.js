@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import memory from '../images/Memory.jpg';
 
 class MemoryGame extends Component {
@@ -20,9 +19,7 @@ class MemoryGame extends Component {
 							</ul>
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Memory-Game/'>
-							<button className="btn projectBtn">Go To Memory Game!</button>
-						</Link>
+						<button className="btn projectBtn"><a href="https://maymoonah.github.io/Memory-Game/">Go To Memory Game!</a></button>
 					</div>
 				</div>
 			</div>

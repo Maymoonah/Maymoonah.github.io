@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import map from '../images/Map.jpg';
 
 class NeighborhoodMap extends Component {
@@ -20,9 +19,9 @@ class NeighborhoodMap extends Component {
 							</ul>
 						</p>
 						<br/>
-						<Link to='https://maymoonah.github.io/Neighborhood-Map/'>
-							<button className="btn projectBtn">Go To Neighborhood Map!</button>
-						</Link>
+						
+							<button className="btn projectBtn"><a href="https://maymoonah.github.io/Neighborhood-Map/">Go To Neighborhood Map!</a></button>
+						
 					</div>
 				</div>
 			</div>
