@@ -329,3 +329,10 @@ html, .homepage {
       margin-left: 100px;
     }
 }
+
+/*increase padding-top for projects pages for smaller screens*/
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    .memory, .arcade, .art, .map {
+      padding-top: 15%;
+    }
+}
