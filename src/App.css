@@ -294,6 +294,16 @@ html, .homepage {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.23);
 }
 
+.memory .projectBtn, .arcade .projectBtn, .art .projectBtn, .map .projectBtn {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 25px;
+  background-color: #293a56;
+  color: #fff;
+}
+
 /*change position of jumbotron on small screen*/
 @media screen and (max-width: 548px) {
     .main .jumbo {
