@@ -5,8 +5,7 @@ html, .homepage {
 }
 
 .main .jumbo {
-/*  background-image: url("images/code.JPG");
-*/  text-align: center;
+  text-align: center;
   height: 300px;
   background: rgba(24, 75, 112, 0.8);
   margin-top: 13%;
@@ -323,9 +322,27 @@ html, .homepage {
 }
 
 /*change position of jumbotron on small screen*/
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1330px) {
     .main .jumbo {
         margin-top: 20%;
+    }
+}
+
+/*change position of jumbotron on small screen*/
+@media screen and (max-width: 915px) {
+    .main .jumbo {
+        margin-top: 22%;
+    }
+}
+
+/*change position of jumbotron on small screen*/
+@media screen and (max-width: 704px) and (min-width: 575px) {
+    .main .jumbo {
+        margin-top: 28%;
+    }
+
+    .homepage .name {
+      margin-top: 20px;
     }
 }
 
