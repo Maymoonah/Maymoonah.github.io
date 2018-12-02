@@ -299,19 +299,22 @@ html, .homepage {
   text-transform: uppercase;
   margin-left: 25px;
   background-color: #293a56;
+  padding: 6px 8px;
 }
 
 .container .projectBtn a {
   color: #fff;
+  padding: 6px 8px;
 }
 
 .container .projectBtn a:hover {
-  font-size: 17px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .container .projectBtn:hover {
   background-color: #314668;
+  font-size: 17px;
 }
 
 /*change position of jumbotron on small screen*/
