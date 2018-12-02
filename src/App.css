@@ -315,13 +315,6 @@ html, .homepage {
 }
 
 /*change position of jumbotron on small screen*/
-@media screen and (max-width: 548px) {
-    .main .jumbo {
-        margin-top: 25%;
-    }
-}
-
-/*change position of jumbotron on small screen*/
 @media screen and (max-width: 1330px) {
     .main .jumbo {
         margin-top: 20%;
@@ -343,6 +336,13 @@ html, .homepage {
 
     .homepage .name {
       margin-top: 20px;
+    }
+}
+
+/*change position of jumbotron on small screen*/
+@media screen and (max-width: 548px) {
+    .main .jumbo {
+        margin-top: 30%;
     }
 }
 
