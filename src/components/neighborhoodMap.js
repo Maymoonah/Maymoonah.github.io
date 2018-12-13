@@ -13,8 +13,10 @@ class NeighborhoodMap extends Component {
 					<div className="col-md-8 description">
 						<ul>
 							<li>Map of places in my neighborhood such as restaurants and schools.</li><br/>
-							<li>Created a map using Google Maps JavaScript API and the framework Knockout.js.</li><br/>
-							<li>The user can read additional information and see a picture of the location.</li>
+							<li>I created a map using Google Maps JavaScript API and the framework Knockout.js.</li><br/>
+							<li>The user can read additional information and see a picture of the location either by clicking
+							on the icon on the map, or by clicking on the location in the sidebar.</li><br />
+							<li>The user can also filter the locations by entering text into the input on the sidebar.</li>
 						</ul>
 						<br/>
 						
