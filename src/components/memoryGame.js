@@ -8,7 +8,7 @@ class MemoryGame extends Component {
 				<h2 className="projectTitle">The Memory Game</h2>
 				<div className="row">
 					<div className="col-md-4">
-						<img src={memory} alt="Memory Game" width="100%"height="100%"/>
+						<img src={memory} className="images" alt="Memory Game" height="349px" width="350px"/>
 					</div>
 					<div className="col-md-8 description">
 						<ul>
