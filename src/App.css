@@ -21,9 +21,9 @@ html, .homepage {
 }
 
 .description {
-  font-family: 'Courier New';
-  font-weight: bold;
-  padding: 20px;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
 }
 
 .navigation {
@@ -99,12 +99,6 @@ html, .homepage {
   color: #fff;
 }
 
-.description {
-  font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
-}
-
 .about .title, .container .title {
   margin-top: 40px;
   text-align: left;
@@ -161,10 +155,6 @@ html, .homepage {
 .resume .projects li, .resume .experience li {
   padding: 0;
   margin-left: 50px;
-}
-
-.resume, .description {
-  font-family: 'Istok Web', sans-serif;
 }
 
 .contactForm .form-control, .contactForm button {
@@ -365,10 +355,17 @@ html, .homepage {
     }
 }
 
-/*redue size of contact form on bigger screen*/
+/*edit description padding on smaller screens*/
 @media screen and (max-width: 991px) and (min-width: 767px) {
-    .description {
-      margin-left: 100px;
+    .about .description {
+      padding-left: 100px;
+    }
+}
+
+/*edit description margin-left on smaller screens*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .memory .description, .arcade .description, .map .description, .art .description {
+      padding-left: 120px;
     }
 }
 
@@ -376,5 +373,12 @@ html, .homepage {
 @media screen and (max-width: 900px) and (min-width: 500px) {
     .memory, .arcade, .art, .map {
       padding-top: 15%;
+    }
+}
+
+/*edit project images margin-bottom on smaller screens*/
+@media screen and (max-width: 768px) {
+    .images {
+      margin-bottom: 50px;
     }
 }
