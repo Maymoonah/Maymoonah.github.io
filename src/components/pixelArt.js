@@ -8,7 +8,7 @@ class PixelArt extends Component {
 				<h2 className="projectTitle">Pixel Art</h2>
 				<div className="row">
 					<div className="col-md-4">
-						<img className="images" src={art} alt="Pixel Art" width="100%" height="100%"/>
+						<img className="images" src={art} alt="Pixel Art" height="349px" width="350px"/>
 					</div>
 					<div className="col-md-8 description">
 						<ul>
