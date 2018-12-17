@@ -5,7 +5,7 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="contact">
-				<form className="contactForm" onSubmit={this.gotEmail}>
+				<form className="contactForm" method="POST">
 				  <FormGroup role="form">
 				  	<h1>Contact Me</h1>
 				    <FormControl type="text" className="form-control" name="firstName" placeholder="First Name"/>
