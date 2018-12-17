@@ -7,10 +7,10 @@ class ArcadeGame extends Component {
 			<div className="container arcade">
 				<h2 className="projectTitle">The Arcade Game</h2>
 				<div className="row">
-					<div className="col-md-4">
-						<img className="images" src={arcade} alt="Arcade Game" width="100%" height="100%"/>
+					<div className="col-md-5">
+						<img className="images" src={arcade} alt="Arcade Game" height="349px" width="350px"/>
 					</div>
-					<div className="col-md-8 description">
+					<div className="col-md-7 description">
 						<ul>
 							<li>Recreating the classic arcade game Frogger using Art assets and game engine provided by Udacity.</li><br/>
 							<li>Implemented Player, enemy, and other entities using Object-Oriented JavaScript.</li><br/>
