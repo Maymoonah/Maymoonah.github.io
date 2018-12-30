@@ -7,9 +7,9 @@ class Contact extends Component {
 			<div className="contact">
 				<div className="notice">
 					<p>
-						Note: Contact form not working yet.
+						<span className="note">Note:</span> Contact form not working yet.
 						<br />
-						For any inquiries, please send email to: <span>maymoonah.ca@gmail.com</span>
+						For any inquiries, please send email to: <span className="email">maymoonah.ca@gmail.com</span>
 					</p>
 				</div>
 				<form className="contactForm" method="POST">
