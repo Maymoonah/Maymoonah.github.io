@@ -5,6 +5,13 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="contact">
+				<div className="notice">
+					<p>
+						Note: Contact form not working yet.
+						<br />
+						For any inquiries, please send email to: <span>maymoonah.ca@gmail.com</span>
+					</p>
+				</div>
 				<form className="contactForm" method="POST">
 				  <FormGroup role="form">
 				  	<h1>Contact Me</h1>
