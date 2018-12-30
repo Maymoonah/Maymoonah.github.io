@@ -322,11 +322,15 @@ html, .homepage {
   max-width: 80%;
 }
 
-.notice span {
+.notice span.email {
   font-style: italic;
   text-transform: none;
   font-weight: normal;
   margin: auto;
+}
+
+.notice span.note {
+  text-decoration: underline;
 }
 
 /*change position of jumbotron on small screen*/
