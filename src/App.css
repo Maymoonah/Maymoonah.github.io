@@ -183,6 +183,8 @@ html, .homepage {
   border: 2px solid #293a56;
   display: block;
   width: 80%;
+  padding-top: 10px;
+  margin-top: 25px;
 }
 
 .contactForm .form-control {
@@ -222,7 +224,8 @@ html, .homepage {
 }
 
 .contact {
-  padding: 25px;
+  padding-top: 10px;
+  padding-top: 10px;
   padding-bottom: 60px;
 }
 
@@ -307,6 +310,25 @@ html, .homepage {
   font-size: 17px;
 }
 
+.notice {
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+  border: solid 1px #bf0f2c;
+  background-color: #ff879a;
+  color: #000;  
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 80%;
+}
+
+.notice span {
+  font-style: italic;
+  text-transform: none;
+  font-weight: normal;
+  margin: auto;
+}
+
 /*change position of jumbotron on small screen*/
 @media screen and (max-width: 1330px) {
     .main .jumbo {
@@ -356,7 +378,7 @@ html, .homepage {
 
 /*redue size of contact form on bigger screen*/
 @media screen and (min-width: 990px) {
-    .contact .contactForm {
+    .contact .contactForm, .notice {
       width: 50%;
     }
 }
